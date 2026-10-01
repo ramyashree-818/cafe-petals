@@ -1,0 +1,101 @@
+.container {
+  padding: 20px;
+  text-align: center;
+  background: #f5f2ef;
+  color: #333;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.about {
+  margin: 20px 0;
+  padding: 15px;
+  background: #fff3e6;
+  border-radius: 10px;
+}
+
+.dark .about {
+  background: #333;
+}
+
+.search {
+  padding: 10px;
+  width: 60%;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.dark .card {
+  background: #2c2c2c;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.cart {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+
+.dark .cart {
+  background: #2c2c2c;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.order-btn {
+  margin-top: 10px;
+  background: green;
+  color: white;
+  padding: 10px;
+}
+
+.location {
+  margin-top: 30px;
+}
